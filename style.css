@@ -68,7 +68,7 @@ footer {
 
 footer .credit-link {
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   color: inherit;
   transition: color 0.5s ease;
 }
@@ -89,5 +89,6 @@ footer .credit-link:hover {
   color: #eb252c;
   cursor: pointer;
 }
+
 
 
