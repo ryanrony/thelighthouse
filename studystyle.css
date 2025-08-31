@@ -116,11 +116,9 @@ footer a:hover {
   color: #eb2560;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   body {
-    padding: 1rem;
-  }
-  .tip-card, .app-links a {
-    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
