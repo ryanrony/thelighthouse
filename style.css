@@ -90,5 +90,11 @@ footer .credit-link:hover {
   cursor: pointer;
 }
 
+@media (max-width: 600px) {
+  body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
 
 
