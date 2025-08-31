@@ -83,3 +83,10 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   color: #eb2556;
 }
+
+@media (max-width: 600px) {
+  body {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
