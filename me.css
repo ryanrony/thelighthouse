@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #f9fafb;
+  color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 2rem;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+.me-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 480px;
+  text-align: center;
+}
+
+.meet-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 1.2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.me-photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.me-description {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+.me-motivation {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.rainbow {
+  background: linear-gradient(90deg, red, orange, rgb(255, 0, 179));
+  background-clip: text;
+  color: transparent;
+}
+
+.nav-btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  text-decoration: none;
+  color: #333;
+  font-weight: 450;
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: #f2f2f2;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  color: #eb2556;
+}
